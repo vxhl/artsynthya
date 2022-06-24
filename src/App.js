@@ -32,7 +32,7 @@ function App() {
           <div className='auth-inner'>
             <Routes>
               <Route exact path='/artsynthya' element={<Login />} />
-              <Route path='/' element={<Login />} />
+              {/* <Route path='/' element={<Login />} /> */}
               <Route path='/sign-in' element={<Login />} />
               <Route path='/sign-up' element={<SignUp />} />
             </Routes>
